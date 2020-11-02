@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2b28865-3f45-4dd2-9a7b-a9013d4a30cb" name="Default Changelist" comment="Napravljen konstruktor klase Interval.">
+    <list default="true" id="c2b28865-3f45-4dd2-9a7b-a9013d4a30cb" name="Default Changelist" comment="Napravljen konstruktor bez parametara.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal02/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal02/Interval.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604340991369</updated>
-      <workItem from="1604340992529" duration="779000" />
+      <workItem from="1604340992529" duration="1136000" />
     </task>
     <task id="LOCAL-00001" summary="Napravljen konstruktor klase Interval.">
       <created>1604341685610</created>
@@ -94,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604341685610</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Napravljen konstruktor bez parametara.">
+      <created>1604341805656</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604341805656</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,12 +121,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Napravljen konstruktor klase Interval." />
-    <option name="LAST_COMMIT_MESSAGE" value="Napravljen konstruktor klase Interval." />
+    <MESSAGE value="Napravljen konstruktor bez parametara." />
+    <option name="LAST_COMMIT_MESSAGE" value="Napravljen konstruktor bez parametara." />
   </component>
   <component name="WindowStateProjectService">
     <state x="485" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1604341388497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="485" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604341388497" />
+    <state x="290" y="412" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604341623293">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="290" y="412" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1604341623293" />
   </component>
 </project>
