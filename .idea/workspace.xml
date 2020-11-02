@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2b28865-3f45-4dd2-9a7b-a9013d4a30cb" name="Default Changelist" comment="Napravljen konstruktor bez parametara.">
+    <list default="true" id="c2b28865-3f45-4dd2-9a7b-a9013d4a30cb" name="Default Changelist" comment="Napravljene metode isIn i isNull.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal02/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal02/Interval.java" afterDir="false" />
     </list>
@@ -47,7 +47,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.IntervalTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.tutorijal02.Main" />
       <module name="rpr-t2-z2" />
@@ -72,8 +72,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntervalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr-t2-z2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.tutorijal02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr.tutorijal02" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.tutorijal02.IntervalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntervalTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -86,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604340991369</updated>
-      <workItem from="1604340992529" duration="1136000" />
+      <workItem from="1604340992529" duration="2281000" />
     </task>
     <task id="LOCAL-00001" summary="Napravljen konstruktor klase Interval.">
       <created>1604341685610</created>
@@ -102,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604341805656</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Napravljene metode isIn i isNull.">
+      <created>1604342313087</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604342313087</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +145,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Napravljen konstruktor klase Interval." />
     <MESSAGE value="Napravljen konstruktor bez parametara." />
-    <option name="LAST_COMMIT_MESSAGE" value="Napravljen konstruktor bez parametara." />
+    <MESSAGE value="Napravljene metode isIn i isNull." />
+    <option name="LAST_COMMIT_MESSAGE" value="Napravljene metode isIn i isNull." />
   </component>
   <component name="WindowStateProjectService">
     <state x="485" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1604341388497">
@@ -133,5 +157,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="290" y="412" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1604341623293" />
+    <state x="249" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1604342427459">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="249" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604342427459" />
   </component>
 </project>
