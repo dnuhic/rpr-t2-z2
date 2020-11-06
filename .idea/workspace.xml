@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2b28865-3f45-4dd2-9a7b-a9013d4a30cb" name="Default Changelist" comment="Napravljene metode isIn i isNull.">
+    <list default="true" id="c2b28865-3f45-4dd2-9a7b-a9013d4a30cb" name="Default Changelist" comment="Napravljena metoda clanica intersect i staticka metoda intersect.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal02/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal02/Interval.java" afterDir="false" />
     </list>
@@ -61,13 +61,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,7 +104,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604340991369</updated>
-      <workItem from="1604340992529" duration="2281000" />
+      <workItem from="1604340992529" duration="3219000" />
+      <workItem from="1604668210076" duration="4163000" />
     </task>
     <task id="LOCAL-00001" summary="Napravljen konstruktor klase Interval.">
       <created>1604341685610</created>
@@ -125,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604342313087</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Napravljena metoda clanica intersect i staticka metoda intersect.">
+      <created>1604343455587</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604343455587</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,22 +151,56 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Napravljen konstruktor klase Interval." />
     <MESSAGE value="Napravljen konstruktor bez parametara." />
     <MESSAGE value="Napravljene metode isIn i isNull." />
-    <option name="LAST_COMMIT_MESSAGE" value="Napravljene metode isIn i isNull." />
+    <MESSAGE value="Napravljena metoda clanica intersect i staticka metoda intersect." />
+    <option name="LAST_COMMIT_MESSAGE" value="Napravljena metoda clanica intersect i staticka metoda intersect." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="485" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1604341388497">
+    <state x="586" y="198" key="#Inspections" timestamp="1604670969152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="485" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604341388497" />
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1604670969152" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1604669548299">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604669548299" />
+    <state x="485" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1604670550462">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="485" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604670550462" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1604671040675">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604671040675" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1604671040675">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604671040675" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1604671040675">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604671040675" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1604671040675">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604671040675" />
+    <state x="178" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604343478475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="178" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604343478475" />
     <state x="290" y="412" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604341623293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="290" y="412" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1604341623293" />
+    <state x="825" y="315" width="1605" height="1027" key="dock-window-1" timestamp="1604668939655">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="825" y="315" width="1605" height="1027" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1604668939655" />
     <state x="249" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1604342427459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
